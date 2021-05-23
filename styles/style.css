@@ -15,6 +15,7 @@ html {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix {
@@ -251,7 +252,6 @@ header {
 
 .meals-showcase {
     list-style: none;
-    margin-top: 1rem;
     width: 100%;
 }
 
@@ -526,14 +526,25 @@ footer {
     color: #ddd;
 }
 
-.social-links li a:hover,
-.social-links li a:active {
-    color: #e67e22;
-}
-
 footer p {
     text-align: center;
     font-size: smaller;
     color: #ddd;
     padding: 2rem;
+}
+
+.fab {
+    font-size: 1.25rem;
+}
+
+.fa-facebook-f:hover {
+    color: #3b5998;
+}
+
+.fa-twitter:hover {
+    color: #00aced;
+}
+
+.fa-google-plus-g:hover {
+    color: #dd4b39;
 }
