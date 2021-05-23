@@ -24,17 +24,76 @@ html {
     margin: 0 auto;
 }
 
+.section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1rem;
+}
+
 /* Heading Components */
 
-h1 {
+h1,
+h2,
+h3 {
     margin: 0;
-    color: #fff;
-    font-size: 240%;
     font-weight: 300;
     text-transform: uppercase;
-    word-spacing: 4px;
+}
+
+h1 {
     margin-top: 0px;
     margin-bottom: 20px;
+    font-size: 240%;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h2:after {
+    content: " ";
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 120%;
+    margin-bottom: 1rem;
+}
+
+/* Paragraphs */
+
+.long-copy {
+    line-height: 145%;
+    margin-left: 15%;
+    width: 70%;
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+/* Icons */
+
+.icon-big {
+    font-size: 4rem;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
 }
 
 /* Button Components */
